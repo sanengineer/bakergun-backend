@@ -1,0 +1,89 @@
+/* Bootstrap Override */
+.btn-primay {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+
+  &:focus {
+    background-color: #ffc106;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.2rem #b68c0d7a;
+
+    &:hover {
+      background-color: #ffc106;
+      border-color: transparent;
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+
+.my-class {
+  background-color: #ffc106;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.2rem #b68c0d7a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: transparent;
+  background-color: #5e5e5e;
+  border-color: transparent;
+}
+
+.btn-dark {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    148.43deg,
+    #676767 -1.04%,
+    rgba(103, 103, 103, 0.395833) 60.25%,
+    rgba(103, 103, 103, 0.34) 120.28%
+  );
+}
+
+/* Main Style */
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(0, 0, 0);
+  min-width: 100vw;
+}
+
+.home-section {
+  background-color: rgb(31, 31, 31);
+  padding-top: 25vh;
+  min-height: 100vh;
+  margin: auto;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.status-screen {
+  height: 130px;
+  width: 130px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  margin: 50px auto;
+}
+
+.text-status {
+  padding: 20px;
+}
+
+.game-section {
+  position: relative;
+}
+
+.player {
+  width: 80vw;
+  margin: auto;
+}
+
+#rc {
+  background-color: red;
+}

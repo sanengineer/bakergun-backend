@@ -1,0 +1,139 @@
+/**Override Boostrapt Style**/
+.btn {
+    border-radius: 15px;
+    padding: 1rem 1rem;
+}
+
+.bg-dark {
+    background: linear-gradient(179.82deg, #676767 -53.62%, rgba(103, 103, 103, 0.395833) 62.43%, rgba(103, 103, 103, 0.34) 176.1%);
+}
+
+.btn-warning {
+    background: linear-gradient(180deg, #FFA800 -28.31%, #C68200 71.68%, #976400 169.63%);
+    border-color: unset;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: unset;
+}
+
+.card-body {
+    padding: 10px;
+
+}
+
+.card-header {
+    padding: 8px 10px;
+    border: unset;
+}
+
+/**Game Board Style**/
+.game-media-query {
+    width: 100%;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 0 24px rgba(0, 0, 0, .15);
+    min-height: 100vh;
+    background-color: 212121;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.score-board {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.win-lose-draw-status {
+    padding: 20px 14px;
+}
+
+.game-play {
+    margin-top: 100px;
+}
+
+
+/**Visble Human Hand Style**/
+.hand-choice {
+    position: relative;
+}
+
+.human-hand-start {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.human-hand-choice {
+    position: absolute;
+    right: 0;
+}
+
+#humanHandRock,
+#humanHandPaper,
+#humanHandScissors {
+    display: none;
+}
+
+.visibility-human-hand {
+    display: block !important;
+}
+
+
+
+
+/**Visble Bot Hand Style**/
+.bot-choice {
+    position: relative;
+}
+
+.bot-hand-start {
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+.bot-hand-choice {
+    position: absolute;
+    left: 0;
+}
+
+#botHandRock,
+#botHandPaper,
+#botHandScissors {
+    display: none;
+}
+
+.visibility-bot-hand {
+    display: block;
+}
+
+.bot-face {
+    position: absolute;
+    right: 90px;
+}
+
+
+/**Nav Footer Style**/
+.bottom-nav {
+    overflow: hidden;
+    background-color: #181818;
+    width: 768px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+    .game-media-query {
+        max-width: none;
+    }
+
+    .bot-face {
+        right: 60px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "backergun_backend",
+  "version": "1.0.0",
+  "description": "Backend stack ini dibuat dengan [NodeJS](https://nodejs.org) dan [ExpressJS 🚀](https://expressjs.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanengineer/bakergun-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanengineer/bakergun-backend/issues"
+  },
+  "homepage": "https://github.com/sanengineer/bakergun-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

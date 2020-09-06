@@ -7,7 +7,7 @@ Pelayanan (***serving***) apa yang ada di dalam project ini? file berextensi .js
 
 #### Credit :
 
-- Roy Thomas Fielding, orang baik yang telah membagikan ilmunya secara gratis melalui [disertasi](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm).
+- Roy Thomas Fielding, orang baik yang telah membagikan ilmunya secara gratis ke dunia melalui [disertasi](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)nya.
 
 
 

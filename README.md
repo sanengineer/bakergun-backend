@@ -1,6 +1,6 @@
 # Backend Stack For Bakergun
 
-![Flow-Diagram-NodeJS-ExpressJS-EJS-WithoutDB](Flow_Diagram_NodeJS_ExpressJS_EJS_WithoutDB.png)
+![Flow-Diagram-NodeJS-ExpressJS-EJS-WithoutDB](Flow_Diagram_NodeJS_ExpressJS_EJS_WithoutDB_sm.png)
 
 Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](https://expressjs.com) dan [EJS](https://ejs.co/)
 

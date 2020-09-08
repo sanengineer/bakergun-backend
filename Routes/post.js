@@ -40,7 +40,7 @@ router.post("/", middleWare.checkFieldPost, async (req, res) => {
     .then((post) =>
       res.status(201).json({
         message: `Database #${post.id} has been created`,
-        gender: post,
+        content: post,
       })
     )
     .catch((err) =>
@@ -63,7 +63,7 @@ router.put(
       .then((post) =>
         res.json({
           message: `Database #${id} has been update`,
-          gender: post,
+          content: post,
         })
       )
       .catch((err) => {

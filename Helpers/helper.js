@@ -23,8 +23,8 @@ function mustBeInArray(array, id) {
   });
 }
 
-function writeJSONfile(filename, gender) {
-  fs.writeFileSync(filename, JSON.stringify(gender), "utf8", (err) => {
+function writeJSONfile(filename, content) {
+  fs.writeFileSync(filename, JSON.stringify(content), "utf8", (err) => {
     if (err) {
       console.log(err);
     }

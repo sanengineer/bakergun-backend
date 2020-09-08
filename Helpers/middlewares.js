@@ -9,9 +9,9 @@ function mustBeInteger(req, res, next) {
 }
 
 function checkFieldsPost(req, res, next) {
-  const { name, gender, alias } = req.body;
+  const { avatar, name, sex, jobs, comment } = req.body;
 
-  if (name && gender && alias) {
+  if (avatar && name && sex && jobs && comment) {
     next();
   } else {
     res.status(400).json({ message: "Form field not pakem Gaess" });

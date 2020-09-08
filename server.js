@@ -20,15 +20,16 @@ app.use(require("./Routes/api"));
 // Routes
 app.get("/", (req, res) => {
   res.render("index");
+  res.json({ message: "Hello San" });
 });
 
 app.get("/game", (req, res) => {
   res.render("game");
 });
 
-app.get("/san", (req, res) => {
-  res.json({ message: "Hail! San Engineer! :P" });
-});
+// app.get("/san", (req, res) => {
+//   res.json({ message: "Hail! San Engineer! :P" });
+// });
 
 // Listen Port
 // app.listen(port, () => {

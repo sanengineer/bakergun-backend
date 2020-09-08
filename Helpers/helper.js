@@ -1,39 +1,39 @@
-const fs = require('fs')
+const fs = require("fs");
 
 const getNewId = (array) => {
-    if (array.length > 0) {
-        return array[array.length - 1].id + 1
-    } else {
-        return 1
-    }
-}
+  if (array.length > 0) {
+    return array[array.length - 1].id + 1;
+  } else {
+    return 1;
+  }
+};
 
-const newDate = () => new Date().toString()
+const newDate = () => new Date().toString();
 
 function mustBeInArray(array, id) {
-    return new Promise((resolve, reject) => {
-        const row = array.find(r => r.id == id)
-        if(!row) {
-            reject({
-                message: 'Check Your ID Gaess',
-                status: 404
-            })
-        }
-        resolve(row)
-    })
+  return new Promise((resolve, reject) => {
+    const row = array.find((r) => r.id == id);
+    if (!row) {
+      reject({
+        message: "Check Your ID Gaess",
+        status: 404,
+      });
+    }
+    resolve(row);
+  });
 }
 
-function writeJSONfile(filename, content) {
-    fs.writeFileSync(filename, JSON.stringify(content), 'utf8', (err) => {
-        if (err) {
-            console.log(err)
-        } 
-    })
+function writeJSONfile(filename, gender) {
+  fs.writeFileSync(filename, JSON.stringify(gender), "utf8", (err) => {
+    if (err) {
+      console.log(err);
+    }
+  });
 }
 
 module.exports = {
-    getNewId,
-    newDate,
-    mustBeInArray,
-    writeJSONfile
-}
+  getNewId,
+  newDate,
+  mustBeInArray,
+  writeJSONfile,
+};

@@ -4,7 +4,7 @@ const post = require("../Models/post-model");
 const middleWare = require("../Helpers/middlewares");
 
 // All Posts
-router.get("/san", async (req, res) => {
+router.get("/", async (req, res) => {
   await post
     .getPosts()
     .then((posts) => res.json(posts))
@@ -18,7 +18,7 @@ router.get("/san", async (req, res) => {
 });
 
 // All Post By Id
-router.get("/san/:id", middleWare.mustBeInteger, async (req, res) => {
+router.get("/:id", middleWare.mustBeInteger, async (req, res) => {
   const id = req.params.id;
 
   await post
@@ -34,13 +34,13 @@ router.get("/san/:id", middleWare.mustBeInteger, async (req, res) => {
 });
 
 // Insert A New Post
-router.post("/san", middleWare.checkFieldPost, async (req, res) => {
+router.post("/", middleWare.checkFieldPost, async (req, res) => {
   await post
     .insertPost(req.body)
     .then((post) =>
       res.status(201).json({
         message: `Database #${post.id} has been created`,
-        content: post,
+        gender: post,
       })
     )
     .catch((err) =>
@@ -52,7 +52,7 @@ router.post("/san", middleWare.checkFieldPost, async (req, res) => {
 
 // Update A Post
 router.put(
-  "/san/:id",
+  "/:id",
   middleWare.mustBeInteger,
   middleWare.checkFieldPost,
   async (req, res) => {
@@ -63,7 +63,7 @@ router.put(
       .then((post) =>
         res.json({
           message: `Database #${id} has been update`,
-          content: post,
+          gender: post,
         })
       )
       .catch((err) => {
@@ -77,7 +77,7 @@ router.put(
 );
 
 // Delete A Post
-router.delete("/san/:id", middleWare.mustBeInteger, async (req, res) => {
+router.delete("/:id", middleWare.mustBeInteger, async (req, res) => {
   const id = req.params.id;
 
   await post

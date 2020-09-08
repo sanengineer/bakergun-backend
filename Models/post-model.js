@@ -1,68 +1,68 @@
-let allJson = require('../Data/withoutdb.json');
-const filename =  './Data/withoutdb.json'
+let posts = require('../Data/posts.json');
+const filename =  './Data/posts.json'
 const helper = require('../Helpers/helper.js')
 
-function getAllJson() {
+function getPosts() {
     return new Promise ((resolve, reject) => {
-        if (allJson.length === 0) {
+        if (posts.length === 0) {
             reject({
                 message: 'no database available',
                 status: 202
             })
         }
 
-        resolve(allJson)
+        resolve(posts)
     })
 }
 
-function getJson(id) {
+function getPost(id) {
     return new Promise((resolve, reject) => {
-        helper.mustBeInArray(allJson, id)
+        helper.mustBeInArray(posts, id)
         .then(post => resolve(post))
         .catch(err => reject(err))
     })
 }
 
-function postJson(newJson) {
+function insertPost(newPost) {
     return new Promise ((resolve, reject) => {
-        const id = {id: helper.getNewId(allJson)}
+        const id = {id: helper.getNewId(posts)}
         const date = {
             createdAt: helper.newDate(),
             updatedAt: helper.newDate()
         }
 
-        newJson = {...id, ...date,...newJson}
-        allJson.push(newJson)
-        helper.writeJSONFile(filename, allJson)
-        resolve(newJson)
+        newPost = {...id, ...date,...newPost}
+        posts.push(newPost)
+        helper.writeJSONFile(filename, posts)
+        resolve(newPost)
     })
 }
 
-function updatedJson(id, newJson) {
+function updatedPost(id, newPost) {
     return new Promise((resolve, reject)=> {
-        helper.mustBeInArray(allJson, id)
+        helper.mustBeInArray(posts, id)
         .then(post => {
-            const index = allJson.findIndex(p => p.id == post.id )
+            const index = posts.findIndex(p => p.id == post.id )
             id = { id: post.id}
             const date = {
                 createdAt: post.createdAt,
                 updatedAt: helper.newDate()
             }
-            posts[index] = {...id, ...date, ...newJson}
-            helper.writeJSONFile(filename, allJson)
-            resolve(allJson[index])
+            posts[index] = {...id, ...date, ...newPost}
+            helper.writeJSONFile(filename, posts)
+            resolve(posts[index])
         })
         .catch(err => reject(err))
     })
 }
 
 
-function deleteJson (id) {
+function deletePost (id) {
     return new Promise((resolve, reject) => {
-        helper.mustBeInArray(allJson, id)
+        helper.mustBeInArray(posts, id)
         .then(() => {
             posts = post.filter(p=> p.id !== id)
-            helper.writeJSONFile(filename, allJson)
+            helper.writeJSONFile(filename, posts)
             resolve()
         })
         .catch(err => reject(err))
@@ -70,10 +70,10 @@ function deleteJson (id) {
 }
 
 module.exports = {
-    postJson,
-    getAllJson,
-    getJson,
-    updatedJson,
-    deleteJson
+    insertPost,
+    getPosts,
+    getPost,
+    updatedPost,
+    deletePost
 }
 

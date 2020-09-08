@@ -1,11 +1,11 @@
 const express = require('express')
 const router = express.Router()
-const database = require('../Models/bakergun-model')
+const database = require('../Models/post-model')
 const middleWare = require('../Helpers/middleware')
 
 
 // All Posts
-router.get('/', async(req, res) => {
+router.get('/san', async(req, res) => {
     await post.getPosts()
     .then(posts => res.json(posts))
     .catch(err => {
@@ -18,7 +18,7 @@ router.get('/', async(req, res) => {
 })
 
 // All Post By Id
-router.get('/:id', m.mustBeInteger, async(req, res) => {
+router.get('/san/:id', middleWare.mustBeInteger, async(req, res) => {
     const id = req.params.id
     
     await post.getPost(id)
@@ -34,7 +34,7 @@ router.get('/:id', m.mustBeInteger, async(req, res) => {
 
 
 // Insert A New Post
-router.post('/', m.checkFieldPost, async(req, res) => {
+router.post('/san', middleWare.checkFieldPost, async(req, res) => {
     await post.insertPost(req.body)
     .then(post => res.status(201).json({
         message: `Database #${post.id} has been created`,
@@ -47,7 +47,7 @@ router.post('/', m.checkFieldPost, async(req, res) => {
 
 
 // Update A Post
-router.put('/:id', m.mustBeInteger, m.checkFieldPost, async (req, res) => {
+router.put('/san/:id', middleWare.mustBeInteger, middleWare.checkFieldPost, async (req, res) => {
     const id = req.params.id
 
     await post.updatePost(id, req.body)
@@ -66,7 +66,7 @@ router.put('/:id', m.mustBeInteger, m.checkFieldPost, async (req, res) => {
 
 
 // Delete A Post
-router.delete(':/id', m.mustBeInteger, async (req, res) => {
+router.delete('/san/:id', middleWare.mustBeInteger, async (req, res) => {
     const id = req. params.id 
 
     await post.deletePost(id)

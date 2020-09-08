@@ -1,8 +1,8 @@
 const express = require("express");
-const morgan = require("morgan")
+const morgan = require("morgan");
 const app = express();
-const port = 3003;
-var path = require("path");
+// const port = 3003;
+// var path = require("path");
 
 // Static Files
 app.use(express.static("Public"));
@@ -11,13 +11,11 @@ app.use(express.static("Public"));
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-
 // Morgan Oei
-app.use(morgan('tiny'))
-app.use(express.json())
-app.use(express.urlencoded({extended: true}))
-app.use(require('./Routes/api'))
-
+app.use(morgan("tiny"));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(require("./Routes/api"));
 
 // Routes
 app.get("/", (req, res) => {
@@ -29,10 +27,11 @@ app.get("/game", (req, res) => {
 });
 
 app.get("/san", (req, res) => {
-  res.json({message: 'Hail! San Engineer! :P'})
-})
+  res.json({ message: "Hail! San Engineer! :P" });
+});
 
 // Listen Port
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Example app listening at http://localhost:${port}`);
+// });
+app.listen("3003");

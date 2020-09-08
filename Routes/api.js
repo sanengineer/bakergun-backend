@@ -1,6 +1,6 @@
-const express = require('express')
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
 
-router.use('/api/v1/posts', require('./player'))
+router.use("/api/v1/posts", require("./post"));
 
-module.exports = router
+module.exports = router;

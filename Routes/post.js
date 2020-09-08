@@ -34,7 +34,7 @@ router.get("/:id", middleWare.mustBeInteger, async (req, res) => {
 });
 
 // Insert A New Post
-router.post("/", middleWare.checkFieldPost, async (req, res) => {
+router.post("/", middleWare.checkFieldsPost, async (req, res) => {
   await post
     .insertPost(req.body)
     .then((post) =>
@@ -54,7 +54,7 @@ router.post("/", middleWare.checkFieldPost, async (req, res) => {
 router.put(
   "/:id",
   middleWare.mustBeInteger,
-  middleWare.checkFieldPost,
+  middleWare.checkFieldsPost,
   async (req, res) => {
     const id = req.params.id;
 

@@ -1,18 +1,1 @@
-[
-    {
-        "id": 1,
-        "name": "First post",
-        "gender": "Lorem Ipsum",
-        "alias": ["tag1", "tag2", "tag3"],
-        "createdAt": "Mon Aug 27 2018 15:16:17 GMT+0200 (CEST)",
-        "updatedAt": "Mon Aug 27 2018 15:16:17 GMT+0200 (CEST)"
-    },
-    {
-        "id": 2,
-        "name": "Second post",
-        "gender": "Lorem Ipsum again",
-        "alias": ["tag2", "tag4"],
-        "createdAt": "Mon Aug 27 2018 16:17:18 GMT+0200 (CEST)",
-        "updatedAt": "Mon Aug 27 2018 16:17:18 GMT+0200 (CEST)"
-    }
-]
+[{"id":1,"createdAt":"Wed Sep 09 2020 05:16:44 GMT+0700 (Western Indonesia Time)","updatedAt":"Wed Sep 09 2020 05:16:44 GMT+0700 (Western Indonesia Time)","name":"Human One","gender":"Male","alias":"ok"},{"id":2,"createdAt":"Wed Sep 09 2020 05:17:20 GMT+0700 (Western Indonesia Time)","updatedAt":"Wed Sep 09 2020 05:17:20 GMT+0700 (Western Indonesia Time)","name":"Robot","gender":"Unisex","alias":"ok"}]

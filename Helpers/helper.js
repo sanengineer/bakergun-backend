@@ -23,7 +23,7 @@ function mustBeInArray(array, id) {
   });
 }
 
-function writeJSONfile(filename, content) {
+function writeJSONFile(filename, content) {
   fs.writeFileSync(filename, JSON.stringify(content), "utf8", (err) => {
     if (err) {
       console.log(err);
@@ -35,5 +35,5 @@ module.exports = {
   getNewId,
   newDate,
   mustBeInArray,
-  writeJSONfile,
+  writeJSONFile,
 };

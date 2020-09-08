@@ -8,7 +8,7 @@ function mustBeInteger(req, res, next) {
   }
 }
 
-function checkFieldPost(req, res, next) {
+function checkFieldsPost(req, res, next) {
   const { name, gender, alias } = req.body;
 
   if (name && gender && alias) {
@@ -20,5 +20,5 @@ function checkFieldPost(req, res, next) {
 
 module.exports = {
   mustBeInteger,
-  checkFieldPost,
+  checkFieldsPost,
 };

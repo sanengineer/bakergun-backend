@@ -6,6 +6,15 @@ Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](h
 
 Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .json untuk keperluan **RestAPI**(**Re**presentational **S**tate **T**ransfer **A**pplication **P**rogramming **I**nterface) ke [Front-End](https://github.com/sanengineer/backergun)
 
+
+## Build UI with Templating Engine EJS
+
+
+![bakergun-ui-img](Public/assets/images/bakergun-landing-page.jpg)
+
+Rendering html document secara terpisah menggunakan templating engine EJS.
+
+
 ## Development Guide
 
 ### Required :

@@ -12,7 +12,7 @@ Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .js
 
 Rendering html document secara terpisah menggunakan templating engine EJS.
 
-## How To Run Server?
+## How To Run Server ?
 
 ### First,
 
@@ -26,8 +26,10 @@ Rendering html document secara terpisah menggunakan templating engine EJS.
 
 ### Required :
 
-- [Watch Sass](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) Plugin
+- [Watch Sass](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) Plugin, to editing stylesheet.
+
+---
 
 #### Credit :
 
-- Roy Thomas Fielding, orang baik yang telah membagikan ilmunya secara gratis ke dunia melalui [disertasi](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)nya.
+- Roy Thomas Fielding, [disertasi](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)nya.

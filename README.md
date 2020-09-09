@@ -20,7 +20,7 @@ Rendering html document secara terpisah menggunakan templating engine EJS.
 
 ### Last,
 
-`$ npm run start`
+`$ npm start`
 
 ## Development Guide
 

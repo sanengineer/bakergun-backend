@@ -14,7 +14,11 @@ Rendering html document secara terpisah menggunakan templating engine EJS.
 
 ## How To Run Server?
 
+### First,
+
 `$ cd bakergun-backend`
+
+### Last,
 
 `$ npm run start`
 

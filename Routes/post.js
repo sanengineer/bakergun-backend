@@ -59,7 +59,7 @@ router.put(
     const id = req.params.id;
 
     await post
-      .updatePost(id, req.body)
+      .updatedPost(id, req.body)
       .then((post) =>
         res.json({
           message: `Database #${id} has been update`,

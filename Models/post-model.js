@@ -1,5 +1,6 @@
 let posts = require("../Data/posts.json");
 const filename = "./Data/posts.json";
+// const filename = require("../Data/posts.json");
 const helper = require("../Helpers/helper.js");
 
 function getPosts() {

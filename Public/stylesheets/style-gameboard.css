@@ -4,14 +4,44 @@
   padding: 1rem 1rem;
 }
 
-.bg-dark {
-  background: linear-gradient(179.82deg, #676767 -53.62%, rgba(103, 103, 103, 0.395833) 62.43%, rgba(103, 103, 103, 0.34) 176.1%);
+.btn-dark {
+  color: white;
+  background: linear-gradient(148.43deg, #676767 -1.04%, rgba(103, 103, 103, 0.395833) 60.25%, rgba(103, 103, 103, 0.34) 120.28%);
 }
 
 .btn-warning {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #FFA800), color-stop(71.68%, #C68200), color-stop(169.63%, #976400));
   background: linear-gradient(180deg, #FFA800 -28.31%, #C68200 71.68%, #976400 169.63%);
   border-color: unset;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:focus {
+  background-color: #ffc106;
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 0 0.2rem #b68c0d7a;
+          box-shadow: 0 0 0 0.2rem #b68c0d7a;
+}
+
+.btn-primary:focus:hover {
+  background-color: #ffc106;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: transparent;
+  background-color: #5e5e5e;
+  border-color: transparent;
 }
 
 .card {
@@ -29,7 +59,59 @@
   border: unset;
 }
 
+/* Main Style */
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  min-width: 100vw;
+}
+
+.home-section {
+  background-color: #1f1f1f;
+  padding-top: 25vh;
+  min-height: 100vh;
+  margin: auto;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.status-screen {
+  height: 130px;
+  width: 130px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  margin: 50px auto;
+}
+
+.text-status {
+  padding: 20px;
+}
+
+.game-section {
+  position: relative;
+}
+
+.player {
+  width: 80vw;
+  margin: auto;
+}
+
+#rc {
+  background-color: red;
+}
+
 /**Game Board Style**/
+.my-class {
+  background-color: #ffc106;
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 0 0.2rem #b68c0d7a;
+          box-shadow: 0 0 0 0.2rem #b68c0d7a;
+}
+
 .game-media-query {
   width: 100%;
   max-width: 768px;
@@ -132,4 +214,4 @@
     right: 60px;
   }
 }
-/*# sourceMappingURL=style-2.css.map */
+/*# sourceMappingURL=style-gameboard.css.map */

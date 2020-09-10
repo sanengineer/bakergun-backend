@@ -14,17 +14,45 @@ Rendering html document secara terpisah menggunakan templating view engine EJS.
 
 Figma Design UI link : [Bakergun UI Design](https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Bakergun-UI-3D-Models-UI-UX?node-id=0%3A1)
 
+## ReSTAPI endpoint
+
+### Players List
+
+- All Player
+
+        localhost:3003/api/v1/players
+
+- Player By Id
+
+  example: Player Id 2
+
+        localhost:3003/api/v1/players/2
+
+### Game Board (Icon and Emoji)
+
+- All Image
+
+        localhost:3003/api/v1/gameboard
+
+- Image By Id
+
+  example: Image Id 2
+
+        localhost:3003/api/v1/gameboard/2
+
 ## How To Run Server ?
 
-### First,
+        $ cd bakergun-backend
 
-`$ cd bakergun-backend`
-
-### Last,
-
-`$ npm start`
+        $ npm start
 
 ## Development Guide
+
+### Run Server Dev Mode:
+
+        $ cd bakergun-backend
+
+        $ npm run dev
 
 ### Required :
 

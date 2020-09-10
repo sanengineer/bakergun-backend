@@ -14,7 +14,7 @@ Rendering html document secara terpisah menggunakan templating view engine EJS.
 
 Figma Design UI link : [Bakergun UI Design](https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Bakergun-UI-3D-Models-UI-UX?node-id=0%3A1)
 
-## ReSTAPI endpoint
+## ReSTAPI Endpoint
 
 ### Players List
 

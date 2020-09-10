@@ -178,9 +178,9 @@ body {
 }
 
 .about-us-bg {
-  background-image: url("/assets/images/the-games-bg.jpg");
+  /*background-image: url("/assets/images/the-games-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
   height: 960px;
   min-width: 100%;
   -o-object-fit: fill;
@@ -193,7 +193,6 @@ body {
   top: 0;
   height: 960px;
   width: 100vw;
-  background: #00000080;
 }
 
 .about-us-bg::after {
@@ -203,29 +202,29 @@ body {
   top: 0;
   height: 960px;
   width: 100vw;
-  background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080a0b 99.74%);
+  /*background: radial-gradient(
+    136.03% 54.57% at 50% 48.04%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0) 60.63%,
+    #080a0b 99.74%
+  );*/
 }
 
 .about-us-content {
   padding-top: 13rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .about-us-text {
   position: relative;
   z-index: 0;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: 33.333333%;
-  margin-right: 40px;
+  text-align: center;
 }
 
 .about-us-title-1 {
   color: #fff;
   letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .about-us-title-2 {
@@ -233,6 +232,7 @@ body {
   text-transform: uppercase;
   font-size: 4rem;
   letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .about-us-carrousel {
@@ -251,12 +251,40 @@ body {
   right: -80px;
 }
 
+.prev-group {
+  position: relative;
+}
+
+.next-group {
+  position: relative;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: block;
+}
+
 .about-us-carrousel .carousel-control-next-icon {
-  background-image: url("/assets/icons/triangle_right.svg");
+  background-image: url("/assets/icons/arrow-right@2x.png");
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .about-us-carrousel .carousel-control-prev-icon {
-  background-image: url("/assets/icons/triangle_left.svg");
+  background-image: url("/assets/icons/arrow-left@2x.png");
+  padding: 20px;
+}
+
+.bg-prev-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  content: "";
+  background: radial-gradient(138.46% 138.46% at 28.46% 8.46%, #6b6b6b 0%, rgba(196, 196, 196, 0) 100%);
+  -webkit-filter: drop-shadow(-1px 14px 38px rgba(44, 44, 44, 0.96));
+  filter: drop-shadow(-1px 14px 38px rgba(44, 44, 44, 0.96));
+  border-radius: 100%;
 }
 
 .about-us-carrousel .carousel-indicators li {
@@ -351,9 +379,9 @@ body {
 }
 
 .requirements-bg {
-  background-image: url("/assets/images/requirements.png");
+  background-image: url("/assets/images/landing-page-section-system-req-bg.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   height: 960px;
   min-width: 100%;
   -o-object-fit: fill;
@@ -367,7 +395,6 @@ body {
   left: 0;
   height: 960px;
   width: 100vw;
-  background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080a0b 99.74%);
 }
 
 .features-content {
@@ -382,14 +409,14 @@ body {
   position: absolute;
   top: 8rem;
   letter-spacing: 3px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .requirements-h3 {
   text-align: center;
   margin: 0 auto;
   font-size: 1rem;
-  font-weight: lighter;
+  font-weight: normal;
   letter-spacing: 2px;
 }
 
@@ -400,6 +427,11 @@ body {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   width: 41.666667%;
+  padding: 17px;
+  background: linear-gradient(181.24deg, #242424 26.2%, rgba(36, 36, 36, 0) 245.41%);
+  -webkit-filter: drop-shadow(1px 12px 10px rgba(41, 41, 41, 0.5));
+          filter: drop-shadow(1px 12px 10px rgba(41, 41, 41, 0.5));
+  border-radius: 10px;
 }
 
 .requirements-box h4 {

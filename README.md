@@ -12,7 +12,9 @@ Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .js
 
 Rendering html document secara terpisah menggunakan templating view engine EJS.
 
-Figma Design UI link: https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Bakergun-UI-3D-Models-UI-UX?node-id=0%3A1
+Figma Design UI link:
+
+https://www.figma.com/file/LcJvUL3iMNdFZ9lsLu0XHq/Bakergun-UI-3D-Models-UI-UX?node-id=0%3A1
 
 ## How To Run Server ?
 

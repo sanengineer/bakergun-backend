@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const post = require("../Models/post-model");
+const post = require("../Models/players-model");
 const middleWare = require("../Helpers/middlewares");
 
 // All Posts

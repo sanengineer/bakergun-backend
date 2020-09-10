@@ -20,22 +20,10 @@ let visibleScissorsBot = document.getElementById("botHandScissors");
 let newRound = document.querySelector(".new-round-button");
 
 let botNodeList = document.querySelectorAll(".bot-hand-choice");
-// let botNodeList = document.getElementById("botChoice").childNodes;
-// var numNodesSelects = [3, 5, 7];
 
-// let addClassVisibilityMan = Array [ document.querySelectorAll(
-//   "#humanHandPaper",
-//   "#humanHandRock",
-//   "#humanHandScissors"
-// );
 
 let addClassVisibilityBot = document.querySelectorAll(".visibility-bot-hand");
 
-// var botFaceStartData = [
-//   ("/assets/images/bot-face-start-2.png", "/assets/images/bot-face-start.png"),
-// ];
-
-// var randomBotFace = Math.floor(Math.random() * botFaceStartData.length);
 
 document
   .getElementById("humanButtonHandRock")
@@ -58,9 +46,6 @@ function visibleRockHuman() {
   visibleStartMan.style.display = "none";
   visibleStartBot.style.display = "none";
   botNodeList[Math.floor(Math.random() * 3)].style.display = "block";
-  //   botNodeList[Math.floor(Math.random() * numNodesSelects.length)].classList.add(
-  //     "visibility-bot-hand"
-  //   );
 }
 
 function visiblePaperHuman() {
@@ -68,9 +53,6 @@ function visiblePaperHuman() {
   visibleStartMan.style.display = "none";
   visibleStartBot.style.display = "none";
   botNodeList[Math.floor(Math.random() * 3)].style.display = "block";
-  //   botNodeList[Math.floor(Math.random() * numNodesSelects.length)].classList.add(
-  //     "visibility-bot-hand"
-  //   );
 }
 
 function visibleScissorsHuman() {
@@ -78,16 +60,10 @@ function visibleScissorsHuman() {
   visibleStartMan.style.display = "none";
   visibleStartBot.style.display = "none";
   botNodeList[Math.floor(Math.random() * 3)].style.display = "block";
-  //   botNodeList[Math.floor(Math.random() * numNodesSelects.length)].classList.add(
-  //     "visibility-bot-hand"
-  //   );
 }
 
 function newRoundFunc() {
   visibleStartMan.style.display = "block";
-  //   visibleRockMan.style.display = "none !important";
-  //   visibleRockMan.style.display = "none !important";
-  //   visibleScissorsMan.style.display = "none !important";
   visibleRockMan.classList.remove("visibility-human-hand");
   visiblePaperMan.classList.remove("visibility-human-hand");
   visibleScissorsMan.classList.remove("visibility-human-hand");
@@ -96,9 +72,4 @@ function newRoundFunc() {
   visibleRockBot.style.display = "none";
   visiblePaperBot.style.display = "none";
   visibleScissorsBot.style.display = "none";
-  //   visibleRockBot.classList.remove("visibility-bot-hand");
-  //   visibleRockBot.classList.remove("visibility-bot-hand");
-  //   visibleRockBot.classList.remove("visibility-bot-hand");
-
-  //   document.getElementById("botFace").src = ;
 }

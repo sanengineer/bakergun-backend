@@ -32,7 +32,7 @@ function startGame(e) {
   console.log(result);
   console.log(winner);
   humanScore.innerHTML = winner[0];
-  botScore.innerHTML = winner[1];
+  botScore.innerHTML = winner[0];
   winLoseDrawStatus = result;
 }
 

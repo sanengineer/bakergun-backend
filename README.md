@@ -48,6 +48,8 @@ Figma Design UI link : [Bakergun UI Design](https://www.figma.com/file/LcJvUL3iM
 
 ## Development Guide
 
+### Use Node Version 10.0.0 (Recomended)
+
 ### Run Server Dev Mode:
 
         $ cd bakergun-backend

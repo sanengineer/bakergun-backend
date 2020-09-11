@@ -61,8 +61,6 @@ body {
 
 .top-nav {
   background-color: #212121;
-  /*-webkit-backdrop-filter: saturate(180%) blur(20px);*/
-  /*backdrop-filter: saturate(180%) blur(20px);*/
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: bold;
@@ -90,7 +88,6 @@ body {
 }
 
 .hero-bg::after {
-  /* z-index: -1; */
   content: "";
   position: absolute;
   top: 0;
@@ -182,9 +179,6 @@ body {
 }
 
 .about-us-bg {
-  /*background-image: url("/assets/images/the-games-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;*/
   height: 960px;
   min-width: 100%;
   -o-object-fit: fill;
@@ -200,18 +194,11 @@ body {
 }
 
 .about-us-bg::after {
-  /* z-index: -1; */
   content: "";
   position: absolute;
   top: 0;
   height: 960px;
   width: 100vw;
-  /*background: radial-gradient(
-    136.03% 54.57% at 50% 48.04%,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 0, 0, 0) 60.63%,
-    #080a0b 99.74%
-  );*/
 }
 
 .about-us-content {

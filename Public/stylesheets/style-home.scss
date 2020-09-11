@@ -63,18 +63,8 @@ body {
   bottom: -20px;
 }
 
-// .san-row {
-//   display: -ms-flexbox;
-//   display: flex;
-//   -ms-flex-wrap: wrap;
-//   flex-wrap: wrap;
-//   margin-right: -15px;
-//   margin-left: -15px;
-// }
 .top-nav {
   background-color: #212121;
-  /*-webkit-backdrop-filter: saturate(180%) blur(20px);*/
-  /*backdrop-filter: saturate(180%) blur(20px);*/
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: bold;
   border-bottom-left-radius: 20px;
@@ -100,18 +90,11 @@ body {
 }
 
 .hero-bg::after {
-  /* z-index: -1; */
   content: "";
   position: absolute;
   top: 0;
   height: 100vh;
   width: 100vw;
-  // background: radial-gradient(
-  //   189.96% 61.18% at 50% 38.82%,
-  //   rgba(255, 181, 72, 0) 0%,
-  //   rgba(52, 44, 29, 0.80319) 73.22%,
-  //   #08090a 99.74%
-  // );
 }
 
 .hero-content {
@@ -199,9 +182,6 @@ body {
 }
 
 .about-us-bg {
-  /*background-image: url("/assets/images/the-games-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;*/
   height: 960px;
   min-width: 100%;
   object-fit: fill;
@@ -216,18 +196,11 @@ body {
 }
 
 .about-us-bg::after {
-  /* z-index: -1; */
   content: "";
   position: absolute;
   top: 0;
   height: 960px;
   width: 100vw;
-  /*background: radial-gradient(
-    136.03% 54.57% at 50% 48.04%,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(0, 0, 0, 0) 60.63%,
-    #080a0b 99.74%
-  );*/
 }
 
 .about-us-content {
@@ -282,14 +255,6 @@ body {
   display: block;
 }
 
-// .about-us-carrousel .carousel-control-next-icon {
-//   background-image: url("/assets/icons/triangle_right.svg");
-// }
-
-// .about-us-carrousel .carousel-control-prev-icon {
-//   background-image: url("/assets/icons/triangle_left.svg");
-// }
-
 .about-us-carrousel .carousel-control-next-icon {
   background-image: url("/assets/icons/arrow-right@2x.png");
   background-size: 40px;
@@ -340,13 +305,6 @@ body {
   top: 0;
   height: 960px;
   width: 100vw;
-  // background: radial-gradient(
-  //   51.1% 80.48% at 30.85% 53.65%,
-  //   rgba(255, 255, 255, 0) 0%,
-  //   rgba(0, 0, 0, 0) 19.2%,
-  //   rgba(4, 5, 6, 0.520671) 47.48%,
-  //   #080a0b 99.74%
-  // );
 }
 
 .features-content {
@@ -416,12 +374,6 @@ body {
   left: 0;
   height: 960px;
   width: 100vw;
-  // background: radial-gradient(
-  //   33.26% 45% at 64.32% 47.1%,
-  //   rgba(255, 255, 255, 0) 3.36%,
-  //   rgba(0, 0, 0, 0) 19.22%,
-  //   #080a0b 99.74%
-  // );
 }
 
 .features-content {

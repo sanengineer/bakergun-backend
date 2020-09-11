@@ -105,6 +105,12 @@ body {
 }
 
 /**Game Board Style**/
+.new-round-button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #14FF00), color-stop(71.68%, #1CBD0E), color-stop(169.63%, #001101));
+  background: linear-gradient(180deg, #14FF00 -28.31%, #1CBD0E 71.68%, #001101 169.63%);
+  border: unset;
+}
+
 .my-class {
   background-color: #ffc106;
   border-color: transparent;

@@ -24,7 +24,7 @@ function startGame(e) {
     winner[0]++;
     result += "1 Wins";
   }
-
+  
   if (result === "Draw") {
     result = "Draw";
   }

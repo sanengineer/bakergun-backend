@@ -59,6 +59,10 @@ body {
   }
 }
 
+.carousel-indicators {
+  bottom: -20px;
+}
+
 // .san-row {
 //   display: -ms-flexbox;
 //   display: flex;
@@ -183,7 +187,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .arrow-down-ic {
@@ -288,31 +292,16 @@ body {
 
 .about-us-carrousel .carousel-control-next-icon {
   background-image: url("/assets/icons/arrow-right@2x.png");
-  background-position: center;
-  background-repeat: repeat;
+  background-size: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .about-us-carrousel .carousel-control-prev-icon {
   background-image: url("/assets/icons/arrow-left@2x.png");
-  padding: 20px;
-}
-
-.bg-prev-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  content: "";
-  // height: 40px;
-  // width: 40px;
-  background: radial-gradient(
-    138.46% 138.46% at 28.46% 8.46%,
-    #6b6b6b 0%,
-    rgba(196, 196, 196, 0) 100%
-  );
-  -webkit-filter: drop-shadow(-1px 14px 38px rgba(44, 44, 44, 0.96));
-  filter: drop-shadow(-1px 14px 38px rgba(44, 44, 44, 0.96));
-  border-radius: 100%;
+  background-size: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .about-us-carrousel .carousel-indicators li {

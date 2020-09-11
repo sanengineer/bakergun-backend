@@ -10,8 +10,8 @@
 }
 
 .btn-warning {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #FFA800), color-stop(71.68%, #C68200), color-stop(169.63%, #976400));
-  background: linear-gradient(180deg, #FFA800 -28.31%, #C68200 71.68%, #976400 169.63%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #ffa800), color-stop(71.68%, #c68200), color-stop(169.63%, #976400));
+  background: linear-gradient(180deg, #ffa800 -28.31%, #c68200 71.68%, #976400 169.63%);
   border-color: unset;
 }
 
@@ -61,7 +61,7 @@
 
 /* Main Style */
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -106,9 +106,14 @@ body {
 
 /**Game Board Style**/
 .new-round-button {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #14FF00), color-stop(71.68%, #1CBD0E), color-stop(169.63%, #001101));
-  background: linear-gradient(180deg, #14FF00 -28.31%, #1CBD0E 71.68%, #001101 169.63%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-28.31%, #14ff00), color-stop(71.68%, #1cbd0e), color-stop(169.63%, #001101));
+  background: linear-gradient(180deg, #14ff00 -28.31%, #1cbd0e 71.68%, #001101 169.63%);
   border: unset;
+}
+
+.new-round-button:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #02eb2140;
+          box-shadow: 0 0 0 0.2rem #02eb2140;
 }
 
 .my-class {

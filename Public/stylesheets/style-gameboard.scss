@@ -1,232 +1,240 @@
 /**Override Boostrapt Style**/
 .btn {
-    border-radius: 15px;
-    padding: 1rem 1rem;
+  border-radius: 15px;
+  padding: 1rem 1rem;
 }
 
 .btn-dark {
-    color: rgb(255, 255, 255);
-    background: linear-gradient(148.43deg, #676767 -1.04%, rgba(103, 103, 103, 0.395833) 60.25%, rgba(103, 103, 103, 0.34) 120.28%);
-  }
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    148.43deg,
+    #676767 -1.04%,
+    rgba(103, 103, 103, 0.395833) 60.25%,
+    rgba(103, 103, 103, 0.34) 120.28%
+  );
+}
 
 // .bg-dark {
 //     background: linear-gradient(179.82deg, #676767 -53.62%, rgba(103, 103, 103, 0.395833) 62.43%, rgba(103, 103, 103, 0.34) 176.1%);
 // }
 
 .btn-warning {
-    background: linear-gradient(180deg, #FFA800 -28.31%, #C68200 71.68%, #976400 169.63%);
-    border-color: unset;
+  background: linear-gradient(
+    180deg,
+    #ffa800 -28.31%,
+    #c68200 71.68%,
+    #976400 169.63%
+  );
+  border-color: unset;
 }
 
 .btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
 
-    color: #fff;
-    background-color: transparent;
+  &:focus {
+    background-color: #ffc106;
     border-color: transparent;
-  
-  
-  
-    &:focus {
+    box-shadow: 0 0 0 0.2rem #b68c0d7a;
+
+    &:hover {
       background-color: #ffc106;
       border-color: transparent;
-      box-shadow: 0 0 0 0.2rem #b68c0d7a;
-  
-      &:hover {
-        background-color: #ffc106;
-        border-color: transparent;
-      }
     }
-  
-    &:hover {
-      background-color: transparent;
-      border-color: transparent;
-    }
-  
   }
 
-  .btn-primary:not(:disabled):not(.disabled):active {
-    color: transparent;
-    background-color: #5e5e5e;
+  &:hover {
+    background-color: transparent;
     border-color: transparent;
   }
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: transparent;
+  background-color: #5e5e5e;
+  border-color: transparent;
+}
 
 .card {
-    border-radius: 10px;
-    overflow: hidden;
-    border: unset;
+  border-radius: 10px;
+  overflow: hidden;
+  border: unset;
 }
 
 .card-body {
-    padding: 10px;
-
+  padding: 10px;
 }
 
 .card-header {
-    padding: 8px 10px;
-    border: unset;
+  padding: 8px 10px;
+  border: unset;
 }
 
 /* Main Style */
 * {
-    font-family: 'Rubik', sans-serif;
-  }
-  
-  body {
-    -webkit-font-smoothing: antialiased;
-    background-color: rgb(0, 0, 0);
-    min-width: 100vw;
-  }
-  
-  .home-section {
-    background-color: rgb(31, 31, 31);
-    padding-top: 25vh;
-    min-height: 100vh;
-    margin: auto;
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-  }
-  
-  .status-screen {
-    height: 130px;
-    width: 130px;
-    border: 1px solid blue;
-    border-radius: 8px;
-    margin: 50px auto;
-  }
-  
-  .text-status {
-    padding: 20px
-  }
-  
-  .game-section {
-    position: relative;
-  }
-  
-  .player {
-    width: 80vw;
-    margin: auto;
-  }
-  
-  #rc {
-    background-color: red;
-  }
+  font-family: "Rubik", sans-serif;
+}
 
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(0, 0, 0);
+  min-width: 100vw;
+}
+
+.home-section {
+  background-color: rgb(31, 31, 31);
+  padding-top: 25vh;
+  min-height: 100vh;
+  margin: auto;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.status-screen {
+  height: 130px;
+  width: 130px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  margin: 50px auto;
+}
+
+.text-status {
+  padding: 20px;
+}
+
+.game-section {
+  position: relative;
+}
+
+.player {
+  width: 80vw;
+  margin: auto;
+}
+
+#rc {
+  background-color: red;
+}
 
 /**Game Board Style**/
 .new-round-button {
-  background: linear-gradient(180deg, #14FF00 -28.31%, #1CBD0E 71.68%, #001101 169.63%);
-  border:unset
+  background: linear-gradient(
+    180deg,
+    #14ff00 -28.31%,
+    #1cbd0e 71.68%,
+    #001101 169.63%
+  );
+  border: unset;
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem #02eb2140;
+  }
 }
 .my-class {
-    background-color: #ffc106;
-    border-color: transparent;
-    box-shadow: 0 0 0 0.2rem #b68c0d7a;
-  }
+  background-color: #ffc106;
+  border-color: transparent;
+  box-shadow: 0 0 0 0.2rem #b68c0d7a;
+}
 
 .game-media-query {
-    width: 100%;
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    box-shadow: 0 0 24px rgba(0, 0, 0, .15);
-    min-height: 100vh;
-    background-color: 212121;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+  width: 100%;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+  min-height: 100vh;
+  background-color: 212121;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .score-board {
-    margin-bottom: 40px;
-    position: relative;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .win-lose-draw-status {
-    padding: 20px 14px;
+  padding: 20px 14px;
 }
 
 .game-play {
-    margin-top: 100px;
+  margin-top: 100px;
 }
-
 
 /**Visble Human Hand Style**/
 .hand-choice {
-    position: relative;
+  position: relative;
 }
 
 .human-hand-start {
-    position: absolute;
-    right: 0;
-    top: 20px;
+  position: absolute;
+  right: 0;
+  top: 20px;
 }
 
 .human-hand-choice {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
 }
 
 #humanHandRock,
 #humanHandPaper,
 #humanHandScissors {
-    display: none;
+  display: none;
 }
 
 .visibility-human-hand {
-    display: block !important;
+  display: block !important;
 }
-
-
-
 
 /**Visble Bot Hand Style**/
 .bot-choice {
-    position: relative;
+  position: relative;
 }
 
 .bot-hand-start {
-    position: absolute;
-    left: 0;
-    top: 20px;
+  position: absolute;
+  left: 0;
+  top: 20px;
 }
 
 .bot-hand-choice {
-    position: absolute;
-    left: 0;
+  position: absolute;
+  left: 0;
 }
 
 #botHandRock,
 #botHandPaper,
 #botHandScissors {
-    display: none;
+  display: none;
 }
 
 .visibility-bot-hand {
-    display: block;
+  display: block;
 }
 
 .bot-face {
-    position: absolute;
-    right: 90px;
+  position: absolute;
+  right: 90px;
 }
-
 
 /**Nav Footer Style**/
 .bottom-nav {
-    overflow: hidden;
-    background-color: #181818;
-    width: 768px;
-    margin: auto;
-    border-radius: 20px;
+  overflow: hidden;
+  background-color: #181818;
+  width: 768px;
+  margin: auto;
+  border-radius: 20px;
 }
 
 /*Responsive*/
 @media only screen and (max-width: 768px) {
-    .game-media-query {
-        max-width: none;
-    }
+  .game-media-query {
+    max-width: none;
+  }
 
-    .bot-face {
-        right: 60px;
-    }
+  .bot-face {
+    right: 60px;
+  }
 }

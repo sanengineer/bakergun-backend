@@ -1,3 +1,5 @@
+// Assets Codigan Javascipt ini tidak dipakai, cuma sekedar dokumentasi sejarah saja
+
 let humanScore = document.querySelector("#humanScore");
 let botScore = document.querySelector("#botScore");
 let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
@@ -21,9 +23,7 @@ let newRound = document.querySelector(".new-round-button");
 
 let botNodeList = document.querySelectorAll(".bot-hand-choice");
 
-
 let addClassVisibilityBot = document.querySelectorAll(".visibility-bot-hand");
-
 
 document
   .getElementById("humanButtonHandRock")

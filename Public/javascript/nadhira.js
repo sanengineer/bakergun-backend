@@ -1,3 +1,5 @@
+// Assets Codigan Javascipt ini tidak dipakai, cuma sekedar dokumentasi sejarah saja
+
 let humanScore = document.querySelector("#humanScore");
 let botScore = document.querySelector("#botScore");
 let winLoseDrawStatus = document.querySelector("#winLoseDrawStatus");
@@ -24,7 +26,7 @@ function startGame(e) {
     winner[0]++;
     result += "1 Wins";
   }
-  
+
   if (result === "Draw") {
     result = "Draw";
   }

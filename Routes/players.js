@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-
 const middleWare = require("../Helpers/middlewares");
 const controllerApiPlayers = require("../Controllers/controller-api-players");
 

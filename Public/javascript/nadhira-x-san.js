@@ -1,7 +1,12 @@
+// Assets Ini Codingan Yang Dipakai
+//
+//
+// Credit:
 // Code Base By Nadhira
 // Modify By San
 //
-// Perjalanan yang panjang Googling, Baca Dokumentasi Sada Sini, Trial and Error.
+//
+// Perjalanan yang panjang dari Googling, Baca Dokumentasi Sana Sini, Trial and Error.
 // Tapi sungguh menyenangkan :D
 
 let humanScore = document.querySelector("#humanScore");

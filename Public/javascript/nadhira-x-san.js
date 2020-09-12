@@ -1,31 +1,23 @@
-// Object HTML
+// Code Base By Nadhira
+// Modify By San
+//
+// Perjalanan yang panjang Googling, Baca Dokumentasi Sada Sini, Trial and Error.
+// Tapi sungguh menyenangkan :D
+
 let humanScore = document.querySelector("#humanScore");
 let botScore = document.querySelector("#botScore");
-let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
+
 let winLoseDrawText = document.getElementById("wldText");
 let bgChangeStatusWsl = document.getElementById("wslCardBody");
 let humanButtonChoose = document.getElementsByClassName("human-button-choose");
 
-let humanSelect = document.getElementsByName("buttonHuman");
-
-let humanChooseRock = document.getElementById("buttonHumanHandRock");
-let humanChoosePaper = document.getElementById("buttonHumanHandPaper");
-let humanChooseScissors = document.getElementById("buttonHumanHandScissors");
-
 let visibleStartMan = document.getElementById("humanHandStart");
-let visibleRockMan = document.getElementById("humanHandRock");
-let visiblePaperMan = document.getElementById("humanHandPaper");
-let visibleScissorsMan = document.getElementById("humanHandScissors");
 
 let visibleStartBot = document.getElementById("botHandStart");
-let visibleRockBot = document.getElementById("botHandRock");
-let visiblePaperBot = document.getElementById("botHandPaper");
-let visibleScissorsBot = document.getElementById("botHandScissors");
 
 let humanScoreResult = 0;
 let botScoreResult = 0;
 
-// Emoji Face Bot
 let botFaceChange = document.getElementById("botFace");
 var botFaceData = [
   "/assets/images/bot-face-start.png",

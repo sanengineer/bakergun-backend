@@ -3,11 +3,9 @@ let botScoreResult = 0;
 
 let humanScore = document.querySelector("#humanScore");
 let botScore = document.querySelector("#botScore");
-// let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
+let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
 let winLoseDrawText = document.getElementById("wldText");
 let humanButtonChoose = document.getElementsByClassName("human-button-choose");
-
-// let humanButtonChoose = document.querySelectorAll("button.human-button-choose");
 
 let humanSelect = document.getElementsByName("buttonHuman");
 
@@ -25,15 +23,24 @@ let visibleRockBot = document.getElementById("botHandRock");
 let visiblePaperBot = document.getElementById("botHandPaper");
 let visibleScissorsBot = document.getElementById("botHandScissors");
 
+// Emoji Face Bot
+let botFaceChange = document.getElementById("botFace");
+
+var botFaceData = [
+  "/assets/images/bot-draw-face.png",
+  "/assets/images/bot-lose-face.png",
+  "/assets/images/bot-win-face.png",
+];
+
 let newRound = document.querySelector(".new-round-button");
 
 let getBotChoice = ["Rock", "Paper", "Scissors"];
 
-// let winner = 0;
-
 for (let i = 0; i < 3; i++) {
   humanButtonChoose[i].addEventListener("click", startGame);
 }
+
+newRound.addEventListener("click", getNewRound);
 
 function startGame(event) {
   let manselect = event.currentTarget.getAttribute("value");
@@ -44,15 +51,18 @@ function startGame(event) {
   if (result === "You") {
     humanScoreResult++;
     result += " Win";
+    botFaceChange.src = botFaceData[1];
   }
 
   if (result === "Bot") {
     botScoreResult++;
     result += " Win";
+    botFaceChange.src = botFaceData[2];
   }
 
   if (result === "Draw") {
     result = "Draw";
+    botFaceChange.src = botFaceData[0];
   }
 
   console.log(
@@ -97,6 +107,13 @@ function whoIsWin(human, bot) {
   }
 }
 
-// function getBotChoice(){
-//   const choice =
-// }
+function getNewRound() {
+  // sessionStorage.clear(botScore, humanScore, winLoseDrawText);
+  // botScore === botScore;
+  // humanScore === humanScore;
+  // winLoseDrawText === winLoseDrawText;
+  location.reload();
+  // window.top.location = window.top.location;
+  // console.clear();
+  // res.update("page_element", "../Views/parts/section-game.ejs", "");
+}

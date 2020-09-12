@@ -68,6 +68,12 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: black;
   min-width: 100vw;
+  background-image: url("/assets/images/whatsapp-stock-background-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
 }
 
 .home-section {
@@ -216,10 +222,11 @@ body {
 /**Nav Footer Style**/
 .bottom-nav {
   overflow: hidden;
-  background-color: #181818;
   width: 768px;
   margin: auto;
-  border-radius: 20px;
+  border-radius: 30px;
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
 }
 
 /*Responsive*/

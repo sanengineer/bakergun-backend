@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
-// const port = 3003;
+const port = 3003;
 // var path = require("path");
 
 // Static Files
@@ -39,12 +39,8 @@ app.get("/contact", (req, res) => {
   res.render("contact");
 });
 
-// app.get("/san", (req, res) => {
-//   res.json({ message: "Hail! San Engineer! :P" });
-// });
-
 // Listen Port
-// app.listen(port, () => {
-//   console.log(`Example app listening at http://localhost:${port}`);
-// });
-app.listen("3003");
+app.listen(port, () => {
+  console.log(`bakergun-backend running on http://localhost:${port}`);
+});
+// app.listen("3003");

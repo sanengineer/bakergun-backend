@@ -482,8 +482,6 @@ body {
 .quotes-bg {
   height: 720px;
   min-width: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .players-bg {

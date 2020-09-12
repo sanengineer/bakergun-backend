@@ -1,0 +1,175 @@
+<section class="game-section" id="gameSection">
+  <div class="game-bg">
+    <div class="score-board">
+      <div class="container pt-4">
+        <div class="row justify-content-center">
+          <h1 class="h4 text-white">Score Board</h1>
+        </div>
+        <div class="row justify-content-center mb-2">
+          <div class="col-lg-4 col-sm-2 col-md-4 win-lose-draw-status">
+            <div id="wslCardBody" class="card bg-dark text-center">
+              <div
+                class="win-lose-draw-status card-header text-white font-weight-bold"
+                id="winLoseDrawStatus"
+              >
+                <p id="wldText" class="content-wld">....</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-2 human-score">
+            <div class="card text-center">
+              <div class="card-header bg-danger text-white font-weight-bold h4">
+                YOU
+              </div>
+              <div class="card-body">
+                <p class="card-text h2" id="humanScore">00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 bot-score">
+            <div class="card text-center">
+              <div class="card-header bg-danger text-white font-weight-bold h4">
+                COM
+              </div>
+              <div class="card-body">
+                <p class="card-text h2" id="botScore">00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="game-play container text-center text-white">
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="player-choice float-right" id="humanCoice">
+            <a
+              href="#"
+              class="human-hand-start btn btn-primary"
+              value="HumanHandStart"
+            >
+              <img
+                id="humanHandStart"
+                src="/assets/images/human-start-hand.png"
+                alt="Human Hand Start"
+                width="120"
+                height="120"
+              />
+            </a>
+            <a
+              href="#"
+              class="human-hand-choice btn btn-primary"
+              id="humanHandRock"
+            >
+              <img
+                src="/assets/images/rock-hand.png"
+                alt="Human Rock"
+                width="120"
+                height="120"
+              />
+            </a>
+            <a
+              href="#"
+              class="human-hand-choice btn btn-primary"
+              id="humanHandPaper"
+              value="Paper"
+            >
+              <img
+                src="/assets/images/paper-hand.png"
+                alt="Human Paper"
+                width="120"
+                height="120"
+              />
+            </a>
+            <a
+              href="#"
+              class="human-hand-choice btn btn-primary"
+              id="humanHandScissors"
+              value="Scissors"
+            >
+              <img
+                src="/assets/images/scissors-hand.png"
+                alt="Human Scissors"
+                width="120"
+                height="120"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="container">
+            <div class="row">
+              <div class="bot-choice" id="botChoice">
+                <a
+                  href="#"
+                  class="bot-hand-start btn btn-primary"
+                  value="BotHandStart"
+                >
+                  <img
+                    id="botHandStart"
+                    src="/assets/images/bot-start-hand.png"
+                    alt="Bot Hand Start"
+                    width="120"
+                    height="120"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="bot-hand-choice btn btn-primary"
+                  id="botHandRock"
+                  value="Rock"
+                >
+                  <img
+                    src="/assets/images/rock-hand.png"
+                    alt="Bot Rock"
+                    width="120"
+                    height="120"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="bot-hand-choice btn btn-primary"
+                  id="botHandPaper"
+                  value="Paper"
+                >
+                  <img
+                    src="/assets/images/paper-hand.png"
+                    alt="Bot Rock"
+                    width="120"
+                    height="120"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="bot-hand-choice btn btn-primary"
+                  id="botHandScissors"
+                  value="Scissors"
+                >
+                  <img
+                    src="/assets/images/scissors-hand.png"
+                    alt="Bot Scissors"
+                    width="120"
+                    height="120"
+                  />
+                </a>
+              </div>
+              <div class="bot-face">
+                <img
+                  id="botFace"
+                  src="/assets/images/bot-face-start-2.png"
+                  alt="Bot Face Start"
+                  width="144"
+                  height="144"
+                  value="Start Game"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -27,7 +27,9 @@ let visibleScissorsBot = document.getElementById("botHandScissors");
 
 let newRound = document.querySelector(".new-round-button");
 
-let getBotChoice = ["Rock", "Paper", "Scissor"];
+let getBotChoice = ["Rock", "Paper", "Scissors"];
+
+// let winner = 0;
 
 for (let i = 0; i < 3; i++) {
   humanButtonChoose[i].addEventListener("click", startGame);
@@ -40,10 +42,12 @@ function startGame(event) {
   let result = whoIsWin(manselect, getBotChoice[botrandomselect]);
 
   if (result === "You") {
+    humanScoreResult++;
     result += " Win";
   }
 
   if (result === "Bot") {
+    botScoreResult++;
     result += " Win";
   }
 
@@ -52,10 +56,15 @@ function startGame(event) {
   }
 
   console.log(
-    `Result is Human Select ${manselect} and Bot Select ${getBotChoice[botrandomselect]}`
+    `Human Select ${manselect} and Bot Select ${getBotChoice[botrandomselect]}`
   );
-  console.log(result);
+  console.log("Result Game: " + result);
+  console.log("Score For Human: " + humanScoreResult);
+  console.log("Score For Bot: " + botScoreResult);
+
   winLoseDrawText.innerHTML = result;
+  humanScore.innerHTML = humanScoreResult;
+  botScore.innerHTML = botScoreResult;
 }
 
 function whoIsWin(human, bot) {

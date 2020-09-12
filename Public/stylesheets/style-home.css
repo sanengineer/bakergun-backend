@@ -464,6 +464,19 @@ body {
 
 .players-section {
   position: relative;
+  margin-top: 200px;
+  margin-bottom: 130px;
+}
+
+.players-title-h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.players-title-p {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .quotes-bg {
@@ -474,10 +487,7 @@ body {
 }
 
 .players-bg {
-  height: 720px;
   min-width: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .quotes-bg::after {
@@ -505,8 +515,6 @@ body {
 
 .players-content {
   position: relative;
-  z-index: 2;
-  top: 150px;
 }
 
 .quotes-text-box {
@@ -614,7 +622,7 @@ body {
 .players-people-box-list {
   padding: 15px;
   color: #868686;
-  margin: 15px auto;
+  margin: 15px auto 60px auto;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;

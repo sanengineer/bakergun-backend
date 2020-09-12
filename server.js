@@ -27,6 +27,10 @@ app.get("/game", (req, res) => {
   res.render("game");
 });
 
+app.get("/players", (req, res) => {
+  res.render("players");
+});
+
 // app.get("/san", (req, res) => {
 //   res.json({ message: "Hail! San Engineer! :P" });
 // });

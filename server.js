@@ -31,6 +31,14 @@ app.get("/players", (req, res) => {
   res.render("players");
 });
 
+app.get("/blog", (req, res) => {
+  res.render("blog");
+});
+
+app.get("/contact", (req, res) => {
+  res.render("contact");
+});
+
 // app.get("/san", (req, res) => {
 //   res.json({ message: "Hail! San Engineer! :P" });
 // });

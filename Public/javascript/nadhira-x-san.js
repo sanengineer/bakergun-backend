@@ -1,14 +1,15 @@
-let humanScoreResult = 0
-let botScoreResult = 0
+let humanScoreResult = 0;
+let botScoreResult = 0;
 
 let humanScore = document.querySelector("#humanScore");
 let botScore = document.querySelector("#botScore");
-let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
+// let winLoseDrawStatus = document.querySelector(".win-lose-draw-status");
+let winLoseDrawText = document.getElementById("wldText");
 let humanButtonChoose = document.getElementsByClassName("human-button-choose");
 
 // let humanButtonChoose = document.querySelectorAll("button.human-button-choose");
 
-let humanSelect = document.getElementsByName("buttonHuman")
+let humanSelect = document.getElementsByName("buttonHuman");
 
 let humanChooseRock = document.getElementById("buttonHumanHandRock");
 let humanChoosePaper = document.getElementById("buttonHumanHandPaper");
@@ -26,11 +27,67 @@ let visibleScissorsBot = document.getElementById("botHandScissors");
 
 let newRound = document.querySelector(".new-round-button");
 
+let getBotChoice = ["Rock", "Paper", "Scissor"];
+
 for (let i = 0; i < 3; i++) {
   humanButtonChoose[i].addEventListener("click", startGame);
 }
 
-function startGame(event){
-  const x = event.currentTarget.getAttribute("value");
-  console.log("Human Select "+ x);
+function startGame(event) {
+  let manselect = event.currentTarget.getAttribute("value");
+  let botrandomselect = Math.floor(Math.random() * getBotChoice.length);
+
+  let result = whoIsWin(manselect, getBotChoice[botrandomselect]);
+
+  if (result === "You") {
+    result += " Win";
+  }
+
+  if (result === "Bot") {
+    result += " Win";
+  }
+
+  if (result === "Draw") {
+    result = "Draw";
+  }
+
+  console.log(
+    `Result is Human Select ${manselect} and Bot Select ${getBotChoice[botrandomselect]}`
+  );
+  console.log(result);
+  winLoseDrawText.innerHTML = result;
 }
+
+function whoIsWin(human, bot) {
+  if (human === bot) {
+    return "Draw";
+  }
+
+  if (human === "Rock") {
+    if (bot === "Scissors") {
+      return "You";
+    } else {
+      return "Bot";
+    }
+  }
+
+  if (human === "Paper") {
+    if (bot === "Rock") {
+      return "You";
+    } else {
+      return "Bot";
+    }
+  }
+
+  if (human === "Scissors") {
+    if (bot === "Paper") {
+      return "You";
+    } else {
+      return "Bot";
+    }
+  }
+}
+
+// function getBotChoice(){
+//   const choice =
+// }

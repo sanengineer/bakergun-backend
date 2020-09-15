@@ -73,9 +73,9 @@ function getPost(id) {
 // }
 
 module.exports = {
-  insertPost,
+  // insertPost,
   getPosts,
   getPost,
-  updatedPost,
-  deletePost,
+  // updatedPost,
+  // deletePost,
 };

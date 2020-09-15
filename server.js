@@ -20,7 +20,7 @@ app.use(require("./Routes/api"));
 // Routes
 app.get("/", (req, res) => {
   res.render("index");
-  res.json({ message: "Hello San" });
+  // res.json({ message: "Hello San" });
 });
 
 app.get("/game", (req, res) => {

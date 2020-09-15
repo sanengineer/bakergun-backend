@@ -1,4 +1,4 @@
-const fs = require("fs");
+// const fs = require("fs");
 
 const getNewId = (array) => {
   if (array.length > 0) {
@@ -23,17 +23,17 @@ function mustBeInArray(array, id) {
   });
 }
 
-function writeJSONFile(filename, content) {
-  fs.writeFileSync(filename, JSON.stringify(content), "utf8", (err) => {
-    if (err) {
-      console.log(err);
-    }
-  });
-}
+// function writeJSONFile(filename, content) {
+//   fs.writeFileSync(filename, JSON.stringify(content), "utf8", (err) => {
+//     if (err) {
+//       console.log(err);
+//     }
+//   });
+// }
 
 module.exports = {
   getNewId,
   newDate,
   mustBeInArray,
-  writeJSONFile,
+  // writeJSONFile,
 };

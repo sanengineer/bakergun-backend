@@ -2,31 +2,31 @@
   {
     "id": 1,
     "name": "Human Hand Start",
-    "imageUrl": "..Public/assets/images/human-start-hand.png"
+    "imageUrl": "/assets/images/human-start-hand.png"
   },
   {
     "id": 2,
     "name": "Bot Hand Start",
-    "imageUrl": "..Public/assets/images/bot-start-hand.png"
+    "imageUrl": "/assets/images/bot-start-hand.png"
   },
   {
     "id": 3,
     "name": "Rock Icon",
-    "imageUrl": "..Public/assets/images/rock-hand.png"
+    "imageUrl": "/assets/images/rock-hand.png"
   },
   {
     "id": 4,
     "name": "Paper Icon",
-    "imageUrl": "..Public/assets/images/paper-hand.png"
+    "imageUrl": "/assets/images/paper-hand.png"
   },
   {
     "id": 5,
     "name": "Scissors Icon",
-    "imageUrl": "..Public/assets/images/scissors-hand.png"
+    "imageUrl": "/assets/images/scissors-hand.png"
   },
   {
     "id": 6,
     "name": "Emoji Love Exited",
-    "imageUrl": "..Public/assets/images/bot-face-start.png"
+    "imageUrl": "/assets/images/bot-face-start.png"
   }
 ]

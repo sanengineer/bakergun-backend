@@ -28,5 +28,10 @@
     "id": 6,
     "name": "Emoji Love Exited",
     "imageUrl": "/assets/images/bot-face-start.png"
+  },
+  {
+    "id": 7,
+    "name": "Background Game Board",
+    "imageUrl": "/assets/images/whatsapp-stock-background-wallpaper.png"
   }
 ]

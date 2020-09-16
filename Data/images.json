@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "Avatar Asu",
+    "imageUrl": "/assets/images/avatar-asu.png"
+  },
+  {
+    "id": 2,
+    "name": "Avatar Babi",
+    "imageUrl": "/assets/images/avatar-babi.png"
+  },
+  {
+    "id": 3,
+    "name": "Avatar Bear",
+    "imageUrl": "/assets/images/avatar-bear.png"
+  },
+  {
+    "id": 4,
+    "name": "Avatar Cat",
+    "imageUrl": "/assets/images/avatar-cat.png"
+  },
+  {
+    "id": 5,
+    "name": "Avatar Cow",
+    "imageUrl": "/assets/images/avatar-cow.png"
+  },
+  {
+    "id": 6,
+    "name": "Avatar Fox",
+    "imageUrl": "/assets/images/avatar-fox.png"
+  },
+  {
+    "id": 7,
+    "name": "Avatar Koala",
+    "imageUrl": "/assets/images/avatar-asu.png"
+  },
+  {
+    "id": 8,
+    "name": "Avatar Man Astronout Dark Skin",
+    "imageUrl": "/assets/images/avatar-man-astronout-dark-skin.png"
+  },
+  {
+    "id": 9,
+    "name": "Avatar Man Astronout Light Skin",
+    "imageUrl": "/assets/images/avatar-man-astronout-light-skin.png"
+  },
+  {
+    "id": 10,
+    "name": "Avatar Man Beard Dark Skin",
+    "imageUrl": "/assets/images/avatar-man-beard-dark-skin.png"
+  },
+  {
+    "id": 11,
+    "name": "Avatar Man Beard Light Skin",
+    "imageUrl": "/assets/images/avatar-man-beard-light-skin.png"
+  },
+  {
+    "id": 12,
+    "name": "Avatar Man Zombie",
+    "imageUrl": "/assets/images/avatar-man-zombie.png"
+  },
+  {
+    "id": 13,
+    "name": "Avatar Monyet",
+    "imageUrl": "/assets/images/avatar-monyet.png"
+  },
+  {
+    "id": 14,
+    "name": "Avatar Mouse",
+    "imageUrl": "/assets/images/avatar-mouse.png"
+  },
+  {
+    "id": 15,
+    "name": "Avatar Panda",
+    "imageUrl": "/assets/images/avatar-panda.png"
+  },
+  {
+    "id": 16,
+    "name": "Avatar Rabbit",
+    "imageUrl": "/assets/images/avatar-rabbit.png"
+  },
+  {
+    "id": 17,
+    "name": "Avatar Robot",
+    "imageUrl": "/assets/images/avatar-robot.png"
+  },
+  {
+    "id": 18,
+    "name": "Avatar Woman Astronout Dark Skin",
+    "imageUrl": "/assets/images/avatar-woman-astronout-dark-skin.png"
+  },
+  {
+    "id": 19,
+    "name": "Avatar Woman Astronout Light Skin",
+    "imageUrl": "/assets/images/avatar-woman-astronout-light-skin.png"
+  },
+  {
+    "id": 20,
+    "name": "Avatar Woman Shorthair Dark Skin",
+    "imageUrl": "/assets/images/avatar-woman-shorthair-dark-skin.png"
+  },
+  {
+    "id": 21,
+    "name": "Avatar Woman Shorthair Light Skin",
+    "imageUrl": "/assets/images/avatar-woman-shorthair-light-skin.png"
+  },
+  {
+    "id": 22,
+    "name": "Avatar Woman Zombie",
+    "imageUrl": "/assets/images/avatar-woman-zombie.png"
+  },
+  {
+    "id": 23,
+    "name": "Blog Page Header Bg",
+    "imageUrl": "/assets/images/blog-page-header-bg.png"
+  },
+  {
+    "id": 24,
+    "name": "Blog Page Hero Left Bg",
+    "imageUrl": "/assets/images/blog-page-hero-left-bg.png"
+  },
+  {
+    "id": 25,
+    "name": "Blog Page Hero Right Bg",
+    "imageUrl": "/assets/images/blog-page-hero-right-bg.png"
+  },
+  {
+    "id": 26,
+    "name": "Contact Page Header Bg",
+    "imageUrl": "/assets/images/contact-page-header-bg.png"
+  },
+  {
+    "id": 27,
+    "name": "Landing Page Hero Background",
+    "imageUrl": "/assets/images/landing-page-hero-background.png"
+  },
+  {
+    "id": 28,
+    "name": "Landing Page Section About Us Carrousel Img 1",
+    "imageUrl": "/assets/images/landing-page-section-about-us-carrousel-img-1.png"
+  },
+  {
+    "id": 29,
+    "name": "Landing Page Section About Us Carrousel Img 2",
+    "imageUrl": "/assets/images/landing-page-section-about-us-carrousel-img-2.png"
+  },
+  {
+    "id": 30,
+    "name": "Landing Page Section About Us Carrousel Img 3",
+    "imageUrl": "/assets/images/landing-page-section-about-us-carrousel-img-3.png"
+  },
+  {
+    "id": 31,
+    "name": "Landing Page Section Feature Bg",
+    "imageUrl": "/assets/images/landing-page-section-feature-bg.png"
+  },
+  {
+    "id": 32,
+    "name": "Landing Page Section Newsletter Bg",
+    "imageUrl": "/assets/images/landing-page-section-newsletter-bg.png"
+  },
+  {
+    "id": 33,
+    "name": "Landing Page Section System Req Bg",
+    "imageUrl": "/assets/images/landing-page-section-system-req-bg.png"
+  },
+
+  {
+    "id": 34,
+    "name": "Bakergun Landing Page UI Screenshot",
+    "imageUrl": "/assets/images/bakergun-landing-page.jpg"
+  }
+]

@@ -1,15 +1,17 @@
 const express = require("express");
 const morgan = require("morgan");
 const app = express();
+const path = require("path");
 const port = process.env.PORT || 8008;
 // var path = require("path");
-
-// Static Files
-app.use(express.static("Public"));
 
 // Setup Views
 app.set("views", "./views");
 app.set("view engine", "ejs");
+
+// Static Files
+// app.use(express.static("./Public"));
+app.use(express.static(path.join(__dirname, "./Public")));
 
 // Morgan Oei
 app.use(function (req, res, next) {

@@ -1,5 +1,5 @@
-let gameposts = require("../Data/gameboard.json");
-// const filename = "./Data/gameboard.json";
+let gameposts = require("../Data/gameboard-urlimage.json");
+// let gameposts = require("../Data/gameboard-id-name-urlimage.json");
 const helper = require("../Helpers/helper.js");
 
 // All Post or Data On Game Board Page
@@ -16,16 +16,16 @@ function getPostsGameboard() {
 }
 
 // Post or Data On Game Board Page By Id
-function getPostGameboard(id) {
-  return new Promise((resolve, reject) => {
-    helper
-      .mustBeInArray(gameposts, id)
-      .then((post) => resolve(post))
-      .catch((err) => reject(err));
-  });
-}
+// function getPostGameboard(id) {
+//   return new Promise((resolve, reject) => {
+//     helper
+//       .mustBeInArray(gameposts, id)
+//       .then((post) => resolve(post))
+//       .catch((err) => reject(err));
+//   });
+// }
 
 module.exports = {
   getPostsGameboard,
-  getPostGameboard,
+  // getPostGameboard,
 };

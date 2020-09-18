@@ -7,6 +7,6 @@ const controllerApiGameboardAssets = require("../Controllers/controller-api-game
 router.get("/", controllerApiGameboardAssets.assets);
 
 // All Posts Gameboard By Name
-router.get("/:id", mw.mustBeInteger, controllerApiGameboardAssets.asset);
+// router.get("/:id", mw.mustBeInteger, controllerApiGameboardAssets.asset);
 
 module.exports = router;

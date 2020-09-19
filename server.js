@@ -7,7 +7,7 @@ const port = process.env.PORT || 8008;
 
 // Setup Views
 app.set("views", "./views");
-app.set("view engine", "ejs");
+// app.set("view engine", "ejs");
 
 // Static Files
 // app.use(express.static("./Public"));

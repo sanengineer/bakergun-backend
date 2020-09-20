@@ -169,5 +169,10 @@
     "id": 34,
     "name": "Bakergun Landing Page UI Screenshot",
     "imageUrl": "https://res.cloudinary.com/dsv9w1ey3/image/upload/v1600271358/bakergun-images-cdn/bakergun-landing-page_y9qcon.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Contact Page Footer Bg",
+    "imageUrl": "https://res.cloudinary.com/dsv9w1ey3/image/upload/v1600585128/bakergun-images-cdn/contact-page-footer-bg_mr5quy.png"
   }
 ]

@@ -40,11 +40,7 @@ Isinya object untuk assets images yang ada di semua halaman.
 
 #### players.json
 
-<<<<<<< HEAD
 Isinya json untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs description tiap tiap pemain.
-=======
-Isinya object untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain.
->>>>>>> 6c327f44b3d643e4fa3bb4ba9c47c1023113a307
 
 #### blog.json
 

@@ -44,7 +44,7 @@ Isinya json untuk list daftar nama para pemain, komentar tentang experience game
 
 #### blog.json
 
-Isinya object untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
+Isinya object untuk halaman blog page, mulai dari feature image post, title, description, nama authornya, avatar-author dan tanggal postingnya.
 
 ### CRUD Method
 

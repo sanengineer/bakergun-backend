@@ -40,6 +40,9 @@ Isinya json untuk list daftar nama para pemain, komentar tentang experience game
 #### blog.json
 Isinya json untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
 
+### CRUD Method
+Di project ini method CRUD sudah **ready to use**, karena suatu hal tapi hanya method READ yang bisa dilakukan 
+
 ### Endpoint ReSTAPI
 
 #### Players List 

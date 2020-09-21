@@ -58,6 +58,7 @@ app.use(require("./Routes/api"));
 
 // Listen Port
 app.listen(port, () => {
-  console.log(`bakergun-backend running on http://localhost:${port}`);
+  console.log(
+    `🍩 bakergun-backend by 🧔https://github.com/sanengineer now running 🚀 on  http://localhost:${port}`
+  );
 });
-

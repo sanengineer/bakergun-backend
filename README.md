@@ -26,29 +26,29 @@ misal :
 
 #### gameboard-urlimage.json
 
-isinya json yang hanya memiliki value url image saja
+isinya object yang hanya memiliki value url image saja
 
 #### gameboard-id-name-urlimage.json
 
-isinya json yang memiliki nama key id, key name, dan key imageUrl. Value dari masing-masing key tersebut misal untuk key **name**, value nya bisa di pakai untuk menembak ke attribute **alt** di element img di html.
+isinya object yang memiliki nama key id, key name, dan key imageUrl. Value dari masing-masing key tersebut misal untuk key **name**, value nya bisa di pakai untuk menembak ke attribute **alt** di element img di html.
 
 untuk data json ini tidak diaktifkan, namun siap dipakai. Tinggal mengganti import module dari **_gameboard-urliamge.json_** ke **_gameboard-id-name-urlimage.json_**, lalu aktifan codingan method **READ** by params Id.
 
 #### images.json
 
-Isinya json untuk assets images yang ada di semua halaman.
+Isinya object untuk assets images yang ada di semua halaman.
 
 #### players.json
 
-Isinya json untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain
+Isinya object untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain
 
 #### blog.json
 
-Isinya json untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
+Isinya object untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
 
 ### CRUD Method
 
-Di project ini method CRUD sudah **ready to use**, karena suatu hal tapi hanya method READ yang bisa dilakukan
+Di project ini method CRUD sudah **ready to use**, tapi karena suatu hal hanya method READ yang bisa dilakukan
 
 ### Endpoint ReSTAPI
 

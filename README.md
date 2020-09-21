@@ -10,9 +10,7 @@ Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .js
 
 ### View Engine Ready To Use
 
-Penggunaan view engine dengan ejs ataupun hbs, sebenarnya kurang begitu penting. Namun di project ini sudah saya siapkan routing untuk merender tiap halaman, dari mulai halaman index sampi sub nya.
-
-Stepnya, membuat folder baru (misal: Views) di directory root project ini, lalu pakai module export-import dan uncomment codingan yang ada di file server.js di project ini.
+Penggunaan view engine dengan ejs ataupun hbs, sebenarnya kurang begitu penting. Namun di project ini sudah saya siapkan routing untuk merender tiap halaman, dari mulai halaman index sampai sub nya.
 
 misal :
 
@@ -21,6 +19,8 @@ misal :
 - localhost:8008/page1 (sub)
 
 - localhost:8008/page2 (sub)
+
+Stepnya, membuat folder baru (misal: Views) di directory root project ini, lalu pakai module export-import dan uncomment codingan yang ada di file server.js .
 
 ### Data JSON Dummy
 
@@ -40,7 +40,7 @@ Isinya json untuk assets images yang ada di semua halaman.
 
 #### players.json
 
-Isinya json untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain
+Isinya json untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs description tiap tiap pemain.
 
 #### blog.json
 

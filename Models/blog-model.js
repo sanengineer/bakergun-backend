@@ -1,8 +1,7 @@
 let blogposts = require("../Data/blog.json");
 const helper = require("../Helpers/helper.js");
 
-
-// Method GET All
+// Method READ All
 //
 // All Post or Data On blog
 function getPostsBlog() {
@@ -17,7 +16,7 @@ function getPostsBlog() {
   });
 }
 
-//Method GET by Params Id
+//Method READ by Params Id
 //
 // Post or Data On Blog Page By Id
 function getPostBlog(id) {

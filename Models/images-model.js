@@ -2,7 +2,7 @@ let imagesposts = require("../Data/images.json");
 // const filename = "./Data/images.json";
 const helper = require("../Helpers/helper.js");
 
-// Method GET All
+// Method READ All
 //
 // All Post or Data On Images
 function getPostsImages() {
@@ -17,7 +17,7 @@ function getPostsImages() {
   });
 }
 
-// Method GET by Params Id
+// Method READ by Params Id
 //
 // Post or Data On Images Page By Id
 function getPostImages(id) {

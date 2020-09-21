@@ -2,8 +2,7 @@ let posts = require("../Data/players.json");
 const filename = "./Data/players.json";
 const helper = require("../Helpers/helper.js");
 
-
-// Method GET All
+// Method READ All
 //
 function getPosts() {
   return new Promise((resolve, reject) => {
@@ -18,7 +17,7 @@ function getPosts() {
   });
 }
 
-// Method GET by Params Id
+// Method READ by Params Id
 //
 function getPost(id) {
   return new Promise((resolve, reject) => {
@@ -66,7 +65,6 @@ function getPost(id) {
 //       .catch((err) => reject(err));
 //   });
 // }
-
 
 // Method DELETE
 //

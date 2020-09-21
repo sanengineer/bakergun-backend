@@ -2,7 +2,7 @@ let gameposts = require("../Data/gameboard-urlimage.json");
 // let gameposts = require("../Data/gameboard-id-name-urlimage.json");
 const helper = require("../Helpers/helper.js");
 
-// Method GET All
+// Method READ All
 //
 // All Post or Data On Game Board Page
 function getPostsGameboard() {
@@ -17,7 +17,7 @@ function getPostsGameboard() {
   });
 }
 
-// Method GET by Params Id
+// Method READ by Params Id
 //
 // Post or Data On Game Board Page By Id
 // function getPostGameboard(id) {

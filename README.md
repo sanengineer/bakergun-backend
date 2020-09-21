@@ -32,6 +32,8 @@ isinya json yang hanya memiliki value url image saja
 
 isinya json yang memiliki nama key id, key name, dan key imageUrl. Value dari masing-masing key tersebut misal untuk key **name**, value nya bisa di pakai untuk menembak ke attribute **alt** di element img di html.
 
+untuk data json ini tidak diaktifkan, namun siap dipakai. Tinggal mengganti import module dari **_gameboard-urliamge.json_** ke **_gameboard-id-name-urlimage.json_**, lalu aktifan codingan method **READ** by params Id.
+
 #### images.json
 
 Isinya json untuk assets images yang ada di semua halaman.
@@ -62,17 +64,11 @@ Di project ini method CRUD sudah **ready to use**, karena suatu hal tapi hanya m
 
         localhost:8008/api/v1/players/2
 
-#### Images Asset on Game Page
+#### Images Url Asset on Game Page
 
-- Images
+- Asset Images Url Only
 
         localhost:8008/api/v1/gameboard
-
-- Image By Id
-
-  example: Image Id 2
-
-        localhost:8008/api/v1/gameboard/2
 
 #### Blog Page
 

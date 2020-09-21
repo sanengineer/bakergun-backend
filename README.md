@@ -2,9 +2,9 @@
 
 ![Flow-Diagram-NodeJS-ExpressJS-EJS-WithoutDB](Flow_Diagram_NodeJS_ExpressJS_EJS_WithoutDB_sm.png)
 
-Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](https://expressjs.com) dan JSON Dummy (Tidak ada intergrasi ke Database Platform atau noDB)
+Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](https://expressjs.com) dan JSON Dummy (Tidak ada intergrasi ke Database Platform atau noDB).
 
-Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .json untuk keperluan **ReSTAPI**(**Re**presentational **S**tate **T**ransfer **A**pplication **P**rogramming **I**nterface) ke [Front-End](https://github.com/sanengineer/bakergun-frontend-html-css-js)
+Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .json untuk keperluan **ReSTAPI**(**Re**presentational **S**tate **T**ransfer **A**pplication **P**rogramming **I**nterface) ke [Front-End](https://github.com/sanengineer/bakergun-frontend-html-css-js).
 
 ## Feature
 
@@ -26,7 +26,7 @@ misal :
 
 #### gameboard-urlimage.json
 
-isinya object yang hanya memiliki value url image saja
+isinya object yang hanya memiliki value url image saja.
 
 #### gameboard-id-name-urlimage.json
 
@@ -40,7 +40,7 @@ Isinya object untuk assets images yang ada di semua halaman.
 
 #### players.json
 
-Isinya object untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain
+Isinya object untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain.
 
 #### blog.json
 
@@ -48,7 +48,7 @@ Isinya object untuk halaman blog page, mulai dari feature image post, title, des
 
 ### CRUD Method
 
-Di project ini method CRUD sudah **ready to use**, tapi karena suatu hal hanya method READ yang bisa dilakukan
+Di project ini method CRUD sudah **ready to use**, tapi karena suatu hal hanya method READ yang bisa dilakukan.
 
 ### Endpoint ReSTAPI
 

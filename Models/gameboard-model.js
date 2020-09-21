@@ -2,6 +2,8 @@ let gameposts = require("../Data/gameboard-urlimage.json");
 // let gameposts = require("../Data/gameboard-id-name-urlimage.json");
 const helper = require("../Helpers/helper.js");
 
+// Method GET All
+//
 // All Post or Data On Game Board Page
 function getPostsGameboard() {
   return new Promise((resolve, reject) => {
@@ -15,6 +17,8 @@ function getPostsGameboard() {
   });
 }
 
+// Method GET by Params Id
+//
 // Post or Data On Game Board Page By Id
 // function getPostGameboard(id) {
 //   return new Promise((resolve, reject) => {

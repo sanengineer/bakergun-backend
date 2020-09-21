@@ -2,6 +2,8 @@ let imagesposts = require("../Data/images.json");
 // const filename = "./Data/images.json";
 const helper = require("../Helpers/helper.js");
 
+// Method GET All
+//
 // All Post or Data On Images
 function getPostsImages() {
   return new Promise((resolve, reject) => {
@@ -15,6 +17,8 @@ function getPostsImages() {
   });
 }
 
+// Method GET by Params Id
+//
 // Post or Data On Images Page By Id
 function getPostImages(id) {
   return new Promise((resolve, reject) => {

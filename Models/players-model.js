@@ -1,8 +1,10 @@
 let posts = require("../Data/players.json");
 const filename = "./Data/players.json";
-// const filename = require("../Data/players.json");
 const helper = require("../Helpers/helper.js");
 
+
+// Method GET All
+//
 function getPosts() {
   return new Promise((resolve, reject) => {
     if (posts.length === 0) {
@@ -16,6 +18,8 @@ function getPosts() {
   });
 }
 
+// Method GET by Params Id
+//
 function getPost(id) {
   return new Promise((resolve, reject) => {
     helper
@@ -25,6 +29,8 @@ function getPost(id) {
   });
 }
 
+// Method CREATE
+//
 // function insertPost(newPost) {
 //   return new Promise((resolve, reject) => {
 //     const id = { id: helper.getNewId(posts) };
@@ -40,6 +46,8 @@ function getPost(id) {
 //   });
 // }
 
+// Method PATCH
+//
 // function updatedPost(id, newPost) {
 //   return new Promise((resolve, reject) => {
 //     helper
@@ -59,6 +67,9 @@ function getPost(id) {
 //   });
 // }
 
+
+// Method DELETE
+//
 // function deletePost(id) {
 //   return new Promise((resolve, reject) => {
 //     helper

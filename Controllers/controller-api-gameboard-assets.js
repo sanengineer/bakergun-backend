@@ -14,7 +14,10 @@ module.exports = {
       });
   },
 
-  // Untuk Data/gameboard-array-of-object.json
+  // 
+  // Untuk: Data/gameboard-array-of-object.json
+  //
+  //
   // asset: async (req, res) => {
   //   const id = req.params.id;
   //   const id = posts.find((i) => i.id + req.params.id);

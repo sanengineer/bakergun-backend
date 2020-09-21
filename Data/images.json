@@ -179,5 +179,10 @@
     "id": 36,
     "name": "Contact Page Feat Bg",
     "imageUrl": "https://res.cloudinary.com/dsv9w1ey3/image/upload/v1600589299/bakergun-images-cdn/contact-page-feat-image_n9uvyj.png"
+  },
+  {
+    "id": 37,
+    "name": "Sign Up Page Feat Bg",
+    "imageUrl": "https://res.cloudinary.com/dsv9w1ey3/image/upload/v1600664998/bakergun-images-cdn/signup-page-feat-image_dysbk4.png"
   }
 ]

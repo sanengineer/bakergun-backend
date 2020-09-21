@@ -2,9 +2,9 @@
 
 ![Flow-Diagram-NodeJS-ExpressJS-EJS-WithoutDB](Flow_Diagram_NodeJS_ExpressJS_EJS_WithoutDB_sm.png)
 
-Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](https://expressjs.com) dan JSON Dummy (Tidak ada intergrasi ke Database Platform atau noDB)
+Backend stack ini dibuat dengan [NodeJS](https://nodejs.org), [ExpressJS 🚀](https://expressjs.com) dan JSON Dummy (Tidak ada intergrasi ke Database Platform atau noDB).
 
-Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .json untuk keperluan **ReSTAPI**(**Re**presentational **S**tate **T**ransfer **A**pplication **P**rogramming **I**nterface) ke [Front-End](https://github.com/sanengineer/backergun-fronent-html-css-js)
+Pelayanan (**_serving_**) apa yang ada di dalam project ini? file berextensi .json untuk keperluan **ReSTAPI**(**Re**presentational **S**tate **T**ransfer **A**pplication **P**rogramming **I**nterface) ke [Front-End](https://github.com/sanengineer/bakergun-frontend-html-css-js).
 
 ## Feature
 
@@ -26,29 +26,33 @@ Stepnya, membuat folder baru (misal: Views) di directory root project ini, lalu 
 
 #### gameboard-urlimage.json
 
-isinya json yang hanya memiliki value url image saja
+isinya object yang hanya memiliki value url image saja.
 
 #### gameboard-id-name-urlimage.json
 
-isinya json yang memiliki nama key id, key name, dan key imageUrl. Value dari masing-masing key tersebut misal untuk key **name**, value nya bisa di pakai untuk menembak ke attribute **alt** di element img di html.
+isinya object yang memiliki nama key id, key name, dan key imageUrl. Value dari masing-masing key tersebut misal untuk key **name**, value nya bisa di pakai untuk menembak ke attribute **alt** di element img di html.
 
 untuk data json ini tidak diaktifkan, namun siap dipakai. Tinggal mengganti import module dari **_gameboard-urliamge.json_** ke **_gameboard-id-name-urlimage.json_**, lalu aktifan codingan method **READ** by params Id.
 
 #### images.json
 
-Isinya json untuk assets images yang ada di semua halaman.
+Isinya object untuk assets images yang ada di semua halaman.
 
 #### players.json
 
+<<<<<<< HEAD
 Isinya json untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs description tiap tiap pemain.
+=======
+Isinya object untuk list daftar nama para pemain, komentar tentang experience gamenya, avatar tiap tiap pemain, dan jobs decription tiap tiap pemain.
+>>>>>>> 6c327f44b3d643e4fa3bb4ba9c47c1023113a307
 
 #### blog.json
 
-Isinya json untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
+Isinya object untuk halaman blog page, mulai dari feature image post, title, descrtioon, nama authorny, avatar-author dan tanggal postingnya.
 
 ### CRUD Method
 
-Di project ini method CRUD sudah **ready to use**, karena suatu hal tapi hanya method READ yang bisa dilakukan
+Di project ini method CRUD sudah **ready to use**, tapi karena suatu hal hanya method READ yang bisa dilakukan.
 
 ### Endpoint ReSTAPI
 

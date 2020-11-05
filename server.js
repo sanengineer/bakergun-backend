@@ -30,6 +30,7 @@ app.use(morgan("tiny"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(require("./Routes/api"));
+app.use(require("./Routes/index"));
 
 // Routing View Engine -- Ready To Use
 // Tinggal Bikin Folder Views Lalu di Export-Import Module Viewsnya,
